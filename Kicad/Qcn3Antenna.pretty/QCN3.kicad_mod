@@ -1,0 +1,225 @@
+(footprint "QCN3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "QCN")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "d5c1a48c-0f54-4cab-81b6-401bda09320d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "QCN3"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(uuid "6274d0d0-bbc2-4438-926f-711a25d71dc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -0.458 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01df5af9-fd2c-44aa-b437-e36ed807e5b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.458 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42620b63-225b-43c5-9e70-cd4fc2d72ad1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.458 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a775025f-6460-4bd1-b7fb-dd00e48c2cc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0.75 -1.2)
+		(end 1.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "adc9dc12-0508-42ff-9b7e-b62a654a08fb")
+	)
+	(fp_line
+		(start -1.85 -2.7)
+		(end -1.85 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "972d9f65-b4ad-4abb-bbf8-c972c808a573")
+	)
+	(fp_line
+		(start -1.85 -2.7)
+		(end 1.85 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50ebed16-abec-42be-8752-72895509c031")
+	)
+	(fp_line
+		(start 1.85 0.7)
+		(end -1.85 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "935b1fc6-a841-46c3-a4cd-fe37bb513f4b")
+	)
+	(fp_line
+		(start 1.85 0.7)
+		(end 1.85 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f8ed2d2-20c7-4994-8a38-c0509f89d959")
+	)
+	(fp_line
+		(start -1.5 -0.3)
+		(end -1.5 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e51358d-7670-4ee3-92cc-6908a249c9aa")
+	)
+	(fp_line
+		(start 1.4 -1.7)
+		(end 1.7 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6429185-5ba2-4037-b21a-d230cb46ca95")
+	)
+	(fp_line
+		(start 1.7 -1.7)
+		(end 1.7 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30bad849-3ff1-4e51-a96c-46f8a1bc247e")
+	)
+	(fp_line
+		(start 1.7 -0.3)
+		(end 1.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae942542-4770-4369-9699-3f57bf783cd3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 -3.2 0)
+		(layer "F.Fab")
+		(uuid "1e1d811a-5c39-4f6c-853d-7a50688b3730")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.98 0.05)
+		(size 0.61 1.07)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.01)
+		(uuid "217bf605-1812-4cd0-8fde-dbc549b625a2")
+	)
+	(pad "2" smd roundrect
+		(at 0.01 0.05)
+		(size 0.61 1.07)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.01)
+		(uuid "a177de1e-96cd-452a-a36d-f576cb1457cb")
+	)
+	(pad "3" smd roundrect
+		(at 1 0.05)
+		(size 0.61 1.07)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.01)
+		(uuid "ba0b17c2-ad7c-4b0c-a395-812877a6c032")
+	)
+	(pad "4" smd roundrect
+		(at 0.98 -2)
+		(size 0.61 1.07)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.01)
+		(uuid "fdedfb41-d2fb-4f12-82fd-aa065d82ccca")
+	)
+	(pad "5" smd roundrect
+		(at -0.01 -2)
+		(size 0.61 1.07)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.01)
+		(uuid "6252872d-18a9-4831-a819-906f3e0c5e40")
+	)
+	(pad "6" smd roundrect
+		(at -1 -2)
+		(size 0.61 1.07)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.01)
+		(uuid "1c2484ac-533c-400d-9599-ba0631d15dbc")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/OnSemi_CASE100CY.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

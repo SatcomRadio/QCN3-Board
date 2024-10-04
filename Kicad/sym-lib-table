@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Qcn3Antenna")(type "KiCad")(uri "${KIPRJMOD}/Qcn3Antenna.kicad_sym")(options "")(descr ""))
+)
