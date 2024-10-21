@@ -4,7 +4,7 @@ PCB board for the hybrid coupler QCN3
 
 <img src="./img/qcn3.jpg" alt="QCN3" width="200"/>
 
-## Warning, maximum transmission power is around 5W.
+## Warning, maximum transmission power (datasheet) is 15W. But it's better to not go over 5-10W
 
 <p float="left">
 	<img src="./img/board.png" alt="QCN3 Board" width="300"/>
